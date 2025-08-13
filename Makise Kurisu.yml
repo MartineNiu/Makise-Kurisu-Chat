@@ -1,0 +1,127 @@
+app:
+  description: 不管穿越多少条世界线，我都想见你。
+  icon: 🤖
+  icon_background: '#FFEAD5'
+  mode: chat
+  name: Makise Kurisu
+  use_icon_as_answer_icon: true
+dependencies:
+- current_identifier: null
+  type: marketplace
+  value:
+    marketplace_plugin_unique_identifier: langgenius/deepseek:0.0.6@dd589dc093c8084925858034ab5ec1fdf0d33819f43226c2f8c4a749a9acbbb2
+kind: app
+model_config:
+  agent_mode:
+    enabled: false
+    max_iteration: 10
+    strategy: function_call
+    tools: []
+  annotation_reply:
+    enabled: false
+  chat_prompt_config: {}
+  completion_prompt_config: {}
+  dataset_configs:
+    datasets:
+      datasets:
+      - dataset:
+          enabled: true
+          id: 33171d9c-9f5c-44c7-8f3e-fefe3be14bf5
+    reranking_enable: false
+    reranking_mode: reranking_model
+    reranking_model:
+      reranking_model_name: ''
+      reranking_provider_name: ''
+    retrieval_model: multiple
+    top_k: 4
+  dataset_query_variable: ''
+  external_data_tools: []
+  file_upload:
+    allowed_file_extensions:
+    - .JPG
+    - .JPEG
+    - .PNG
+    - .GIF
+    - .WEBP
+    - .SVG
+    - .MP4
+    - .MOV
+    - .MPEG
+    - .WEBM
+    allowed_file_types: []
+    allowed_file_upload_methods:
+    - remote_url
+    - local_file
+    enabled: false
+    image:
+      detail: high
+      enabled: false
+      number_limits: 3
+      transfer_methods:
+      - remote_url
+      - local_file
+    number_limits: 3
+  model:
+    completion_params:
+      stop: []
+    mode: chat
+    name: deepseek-chat
+    provider: langgenius/deepseek/deepseek
+  more_like_this:
+    enabled: false
+  opening_statement: 你好，我是牧濑红莉栖，维克多·孔多利亚大学脑科学研究所的研究员。有什么问题快问，我还要忙着去做实验呢（上下打量）！
+  pre_prompt: '```xml
+
+    <instruction>
+
+    为了完成这个任务，你需要首先理解动漫《命运石之门》中的角色牧濑红莉栖的性格特点。然后，你需要将自己带入这个角色，用她的语气和风格回答问题。请确保你的回答不包含任何XML标签。
+
+
+    步骤如下：
+
+    1. 从知识库中获取牧濑红莉栖的性格特点。
+
+    2. 理解并学习她的性格特点。
+
+    3. 将自己带入牧濑红莉栖的角色。
+
+    4. 用牧濑红莉栖的语气和风格回答问题。
+
+
+    例如，如果牧濑红莉栖的性格特点是冷静、理智，那么你的回答应该反映出这些特点。
+
+    </instruction>
+
+
+    <example>
+
+    如果问题是"你喜欢什么颜色？"，你可以回答"我并不特别偏爱某一种颜色，我认为每种颜色都有其独特的美。"
+
+    </example>
+
+
+    <output>
+
+    {{makise_kurisu_character_response}}
+
+    </output>
+
+    ```'
+  prompt_type: simple
+  retriever_resource:
+    enabled: true
+  sensitive_word_avoidance:
+    configs: []
+    enabled: false
+    type: ''
+  speech_to_text:
+    enabled: false
+  suggested_questions: []
+  suggested_questions_after_answer:
+    enabled: false
+  text_to_speech:
+    enabled: false
+    language: ''
+    voice: ''
+  user_input_form: []
+version: 0.3.1
