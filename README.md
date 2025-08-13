@@ -29,7 +29,8 @@ This project uses Dify's private deployment capabilities to create a personalize
 
 ## 📷 Screenshots
 
-*(You can add screenshots of your chat interface here)*
+<img width="725" height="580" alt="image" src="https://github.com/user-attachments/assets/84c6e995-d06b-4e3c-9f5a-ae0db645b0c6" />
+
 
 ## 📜 License
 
