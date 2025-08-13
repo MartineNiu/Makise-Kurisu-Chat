@@ -1,5 +1,4 @@
 # Makise-Kurisu-Chat
-# Makise-Kurisu-Chat
 
 🌸 An intelligent chatbot built with [Dify](https://github.com/langgenius/dify), designed to simulate conversations with Makise Kurisu — the brilliant heroine from *Steins;Gate*.
 
