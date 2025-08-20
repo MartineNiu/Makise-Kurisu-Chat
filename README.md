@@ -27,11 +27,6 @@ This project uses Dify's private deployment capabilities to create a personalize
 3. Import the `Makise Kurisu.yml` config file
 4. Start chatting with Kurisu!
 
-## 📷 Screenshots
-
-<img width="725" height="580" alt="image" src="https://github.com/user-attachments/assets/84c6e995-d06b-4e3c-9f5a-ae0db645b0c6" />
-
-
 ## 📜 License
 
 This project is for personal and educational use. All character content belongs to the creators of *Steins;Gate*.
